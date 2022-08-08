@@ -18,3 +18,58 @@
     font-weight: 100;
     padding-left: 10px;
 }
+
+.cards-container{
+    padding: 15px 30px 30px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.card{
+    display: flex;
+    padding: 15px 0;
+    border-bottom: 1px solid rgb(215, 215, 215);
+}
+.card img{
+    width: 120px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card .card-details{
+    margin-left: 15px;
+}
+
+.card .card-location{
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 200;
+    letter-spacing: 1pt;
+    text-transform: uppercase;
+}
+
+.card .card-map-url{
+    margin-left: 10px;
+    font-size: 10px;
+    color: rgb(184, 184, 184);
+}
+
+.card .card-title{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.card .card-dates{
+    margin-top: 15px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.card .card-description{
+    margin-top: 5px;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 14px;
+    color: rgb(67, 67, 67);
+}

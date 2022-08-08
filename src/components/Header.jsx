@@ -1,5 +1,5 @@
 
-export default function Main(){
+function Header(){
     return(
         <div className="main-header">
             <img src="src/assets/react.svg" alt="logo" />
@@ -7,3 +7,5 @@ export default function Main(){
         </div>
     )
 }
+
+export default Header
